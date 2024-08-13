@@ -1,5 +1,5 @@
 /*Import Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Noto+Sans:ital,wght@0,600;1,600&family=Playfair+Display:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@100..900&family=Noto+Sans:ital,wght@0,600;1,600&family=Playfair+Display:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@500&display=swap');
 
 /*Main Content*/
 * {
@@ -56,8 +56,8 @@ main {
 .hero-section>h1 {
   align-self: center;
   padding: 35px;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
 }
 
 .prices>p {
@@ -77,40 +77,46 @@ main {
   justify-content: center;
   align-items: center;
   width: 220px;
-  height: 245px;
+  height: 275px;
   border-radius: 10px;
 }
 
 .services>.first-service {
-  background-color: #F6DB99;
-  filter: opacity(70%)
+  background-color: #E1B07E;
 }
 
 .services>.second-service {
-  background-color: #F4D78F;
-  filter: opacity(80%)
+  background-color: #E1B07E;
 }
 
 .services>.third-service {
-  background-color: #F3D58A;
-  filter: opacity(90%)
+  background-color: #E1B07E;
 }
 
 .services>.fourth-service {
-  background-color: #F2D385;
-  filter: opacity(100%)
+  background-color: #E1B07E;
+}
+
+.info-circle {
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
 }
 
 .services>div>img {
-  width: 185px;
-  height: 185px;
+  width: 200px;
+  height: 190px;
+
   border-radius: 10px;
-  filter: opacity(90%)
+  border: 2px rgba(0, 0, 0, 0.600);
+  border-style: groove;
 }
 
 .services>div>img:hover {
   cursor: pointer;
-  filter: opacity(100%);
+  border: 3px rgba(0, 0, 0, 0.700);
+  border-style: inset;
+  transition: 0.2s ease;
 }
 
 .services>div>img .services>div>p {
@@ -196,5 +202,11 @@ main {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+  .antic-didone-regular {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
   }
   */
