@@ -164,6 +164,36 @@ main {
   font-size: 1.2rem;
 }
 
+.line-separator {
+  display: flex;
+  gap: 50px;
+}
+
+.line-separator>hr {
+  border-color: white;
+  width: 50%;
+}
+
+/*Serviços*/
+.services-main-section {
+  display: flex;
+}
+
+.services-boxes {
+  display: flex;
+}
+
+.services-main-section > .title > h1 {
+  padding: 35px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+
+.design-service>img {
+  width: 250px;
+  height: 275px;
+}
+
 /*
   Font Snippets
 
